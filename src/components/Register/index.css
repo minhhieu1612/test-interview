@@ -1,0 +1,95 @@
+.register-page {
+  position: relative;
+  text-align: center;
+  padding: 10em 0;
+}
+
+.logo-festival {
+  position: absolute;
+  width: 17em;
+  top: 3em;
+  left: 5em;
+}
+
+.logo-hue-moi {
+  position: absolute;
+  width: 20em;
+  top: 3em;
+  right: 5em;
+}
+
+.head-banner {
+  position: relative;
+  width: 40em;
+  margin: 0 auto;
+}
+
+@media (max-width: 1500px) {
+  .logo-festival {
+    width: 14em;
+  }
+
+  .logo-hue-moi {
+    width: 16em;
+  }
+
+  .head-banner {
+    width: 30em;
+  }
+}
+
+@media (max-width: 1200px) {
+  .logo-festival {
+    width: 11.5em;
+    top: 5em;
+    left: 3em;
+  }
+
+  .logo-hue-moi {
+    width: 13em;
+    top: 5em;
+    right: 3em;
+  }
+
+  .head-banner {
+    width: 28em;
+  }
+}
+
+@media (max-width: 991px) {
+  .logo-festival {
+    width: 8.5em;
+  }
+
+  .logo-hue-moi {
+    width: 10em;
+  }
+
+  .head-banner {
+    width: 23em;
+  }
+}
+
+@media (max-width: 767px) {
+  .logo-hue-moi {
+    display: none;
+  }
+
+  .logo-festival {
+    top: 7em;
+    width: 10em;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .head-banner {
+    padding-top: 8em;
+    width: 20em;
+  }
+}
+
+@media (max-width: 567px) {
+  .head-banner {
+    width: 18em;
+  }
+}

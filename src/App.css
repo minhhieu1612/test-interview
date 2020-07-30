@@ -1,0 +1,73 @@
+.bg {
+  background-image: url('./assets/img/bg-desktop.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.el-top,
+.el-bot {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  height: 10em;
+  width: 61em;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.el-top {
+  background-image: url('./assets/img/el-top.png');
+  top: 0;
+  height: 8em;
+}
+
+.el-bot {
+  background-image: url('./assets/img/el-bot.png');
+  bottom: 0;
+}
+
+@media (max-width: 1500px) {
+
+  .el-bot,
+  .el-top {
+    height: 8em;
+    width: 48em;
+  }
+
+  .el-top {
+    height: 7em;
+  }
+}
+
+@media (max-width: 767px) {
+  .bg {
+    background-size: auto 100%;
+  }
+
+  .el-bot,
+  .el-top {
+    height: 6em;
+    width: 36em;
+  }
+
+  .el-top {
+    height: 5em;
+  }
+}
+
+@media (max-width: 575px) {
+
+  .el-bot,
+  .el-top {
+    height: 13%;
+    width: 95%;
+  }
+
+  .el-top {
+    height: 8%;
+  }
+}
